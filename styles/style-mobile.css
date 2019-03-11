@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+	.burger {
+		display: block;
+	}
+
+	header .wrap {
+		display: block;
+	}
+
+	.header-ul {
+		float: unset;
+		display: none;
+		margin-top: 128px;
+		text-align: center;
+	}
+
+	.header-ul li {
+		display: block;
+		padding-left: 0;
+		padding-bottom: 10px;
+	}
+	.header-ul-block {
+		display: block;
+	}
+
+	.main-advantages, .lastworksblock, .map, .cont {
+		width: 100%;
+	}
+
+	.foot {
+		justify-content: center;
+		align-items: flex-end;
+	}
+}
